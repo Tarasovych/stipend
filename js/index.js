@@ -18,6 +18,8 @@ function printMessage(random, clicks) {
   if (random === "Так") {
     document.getElementById("alert").innerHTML =
     "Серйозно? Аж з " + clicks + " разу!";
+    document.getElementById("btnSearch").style.display = "none";
+    document.getElementById("reload").style.display = "block";
   }
 }
 //display "you get word1 after _ clicks"

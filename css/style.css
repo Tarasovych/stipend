@@ -48,6 +48,9 @@ p {
 #btnSearch:focus, button#reload:focus {
 	outline:0;
 }
+button#reload {
+    display: none;
+}
 @media screen and (max-device-width: 768px) {
 h1 {
 	font-size: 4.6rem;
